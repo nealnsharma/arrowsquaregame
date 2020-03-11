@@ -1,7 +1,7 @@
 # Signpost
 ## This is a reimplementation of the Signpost puzzle from Simon Tatham's Portable Puzzle Collection.
 
-**Signpost** *is written in Java and uses object-oriented programming for logic.*
+Signpost is written in Java and uses object-oriented programming for logic.*
 
 
 
