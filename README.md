@@ -1,7 +1,7 @@
 # Signpost
-## Description of your project
+## This is a reimplementation of the Signpost puzzle from Simon Tatham's Portable Puzzle Collection.
 
-**Signpost** *is a project for XXXXXXXXXXXXXXXX*
+**Signpost** *is written in Java and uses object-oriented programming for logic.*
 
 
 
