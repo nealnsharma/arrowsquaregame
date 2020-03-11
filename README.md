@@ -1,7 +1,7 @@
 # Signpost
 ## Based on Signpost from Simon Tatham's Portable Puzzle Collection
 
-Signpost is played on a W×H rectangular grid of square cells. All but one of the squares is annotated with an arrow pointing horizontally, vertically, or diagonally. The remaining square—the goal—is annotated with a star. Some squares contain distinct numbers between 1 and W⋅H. The first and last squares in sequence (those numbered 1 and W⋅H) are always numbered. The puzzle may be set to have free ends, in which case the first and last squares may appear anywhere on the board. By default, there are no free ends and the first and last squares are in the upper-left and lower-right corners, respectively. The idea is to connect the squares into a sequence from square 1 to W⋅H. Each square is connected to another that is in the direction of its arrow such that all the squares are connected. If a square initially has a number, it must be the number of that square in the sequence of connected squares.
+Signpost is played on a W×H rectangular grid of square cells and every square is annotated with an arrow pointing horizontally, vertically, or diagonally besides the goal square which has a star. The first and goal square in sequence are the only squares numbered. The idea is to connect the squares into a sequence from square 1 to W⋅H. Each square is connected to another that is in the direction of its arrow such that all the squares are connected. If a square initially has a number, it must be the number of that square in the sequence of connected squares.
 
 >The following are descriptions of the files:
 
