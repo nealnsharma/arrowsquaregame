@@ -14,7 +14,7 @@ Signpost is played on a W×H rectangular grid of square cells and every square i
 - Place.java
   - Encapsulates a position on the puzzle board.
 - Controller.java 
-  - Contains the logic for controlling a game: responding to commands by updating the model as apppropriate.
+  - Contains the logic for controlling a game: responding to commands by updating the model as appropriate.
 - CommandSource.java
   - An interface that for classes that provide commands
  to the Controller.
