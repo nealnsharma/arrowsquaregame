@@ -1,7 +1,7 @@
 # Signpost
 ## Based on Signpost from Simon Tatham's Portable Puzzle Collection
 
-Signpost is played on a W×H rectangular grid of square cells and every square is annotated with an arrow pointing horizontally, vertically, or diagonally besides the goal square which has a star. The first and goal square in sequence are the only squares numbered. The idea is to connect the squares into a sequence from square 1 to W⋅H. Each square is connected to another that is in the direction of its arrow such that all the squares are connected. If a square initially has a number, it must be the number of that square in the sequence of connected squares.
+Signpost is played on a W×H rectangular grid of square cells and every square is annotated with an arrow pointing horizontally, vertically, or diagonally besides the goal square which has a star. The first and goal square in sequence are the only squares numbered. The idea is to connect the squares into a sequence from square 1 to WxH. Each square is connected to another that is in the direction of its arrow such that all the squares are connected. If a square initially has a number, it must be the number of that square in the sequence of connected squares.
 
 >The following are descriptions of the files:
 
