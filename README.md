@@ -5,23 +5,49 @@
 
 
 
->This project provides a bsic implementation of XXXXXXXXX
+>The following are descriptions of the files:
 
+- Makefile          
+  - A Makefile for compiling, style checking, testing, and cleaning up files in this directory.
+- Main.java          
+  - Entry point to program. This handles program options and sets up the necessary objects to play one or more games.
+- Model.java
+  - This class describes game state: the positions of centers and barriers. It contains the logic for adding and removing barriers, testing that constraints are satisfied, and testing for a solution.
+- Place.java
+  - Encapsulates a position on the puzzle board.
+- Controller.java 
+  - Contains the logic for controlling a game: responding to commands by updating the model as apppropriate.
+- CommandSource.java
+  - An interface that for classes that provide commands
+ to the Controller.
+- GUISource.java
+  - A CommandSource that fetches inputs from a user's
+ mouse actions.
+- PuzzleSource.java 
+  - An interface to classes that can provide puzzles.
 
-`Code Section or code snippet `
+- TestSource.java 
+  - A CommandSource and PuzzleSource that fetches
+ commands and puzzles from the standard input.
 
-This project sets up the following:
-- A highly available architecture that spans three Availability Zones.*
-- A VPC configured with public and private subnets, according to AWS best practices, to provide you with your own virtual network.*
-- In the public subnets:
-  - Managed network address translation (NAT) gateways to allow outbound internet access for resources in the private subnets.*
-  - A Linux bastion host in an Auto Scaling group to allow inbound Secure Shell (SSH) access to Amazon Elastic Compute Cloud (Amazon EC2) instances in public and private subnets.*
-- In the private subnets, installed as highly available clusters:
-  - The Solumina proprietary software.
-  –	Amazon Elasticsearch Service (Amazon ES).
-  - A MongoDB resource.
-  - Amazon Relational Database Service (Amazon RDS).
-- An Application Load Balancer to route traffic to the Solumina web application over HTTPS.
-- Amazon Elastic Kubernetes Service (Amazon EKS).
-- An Amazon S3 bucket for storing Quick Start assets.
-- Amazon Elastic File System (Amazon EFS) to provide on-demand scaling and management of AWS Cloud services and resources.
+- PuzzleGenerator.java
+  - A kind of PuzzleSource that randomly generates
+ puzzles.
+
+- View.java 
+  - Interface to classes that can display a Model.
+- GUI.java 
+  - A View that represents the graphical display of the
+ game state and receives mouse actions from the user.
+- BoardWidget.java 
+  - Used by GUI to represent the grid of squares and tiles.
+- Utils.java
+  - A collection of static utility methods.
+- UnitTests.java 
+  - Main unit-test file. This dispatches to other *Tests
+ classes for unit testing.
+- ModelTests.java 
+  - Unit tests for class Model.
+- PuzzleGeneratorTests.java
+  - Unit tests for class PuzzleGenerator.
+                    
